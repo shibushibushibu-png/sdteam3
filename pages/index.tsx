@@ -51,7 +51,7 @@ export default function Home() {
               </div>
               {/* Right Side: Image */}
               <div className="flex flex-col justify-center items-center h-full">
-                <Image src="/analysis1.png" alt="新事業チーム診断イメージ" width={500} height={400} className="w-full max-w-lg h-auto animate-fade-in-up delay-400" />
+                <Image src="/images/analysis/analysis1.png" alt="新事業チーム診断イメージ" width={500} height={400} className="w-full max-w-lg h-auto animate-fade-in-up delay-400" />
               </div>
             </div>
             {/* Button */}
@@ -89,21 +89,21 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="text-center p-8 bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-xl border-l-4 border-indigo-800 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 <div className="flex justify-center mb-6">
-                  <img src="/eye.svg" alt="見える化アイコン" className="w-12 h-12" style={{ color: '#3730a3' }} />
+                  <img src="/images/icons/eye.svg" alt="見える化アイコン" className="w-12 h-12" style={{ color: '#3730a3' }} />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-4">能力要件が不透明</h3>
                 <p className="text-sm text-gray-700 leading-loose">新事業にどのような能力が必要か不透明</p>
               </div>
               <div className="text-center p-8 bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-xl border-l-4 border-indigo-800 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 <div className="flex justify-center mb-6">
-                  <img src="/scale.svg" alt="評価基準アイコン" className="w-12 h-12" style={{ color: '#3730a3' }} />
+                  <img src="/images/icons/scale.svg" alt="評価基準アイコン" className="w-12 h-12" style={{ color: '#3730a3' }} />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-4">評価基準が不適切</h3>
                 <p className="text-sm text-gray-700 leading-loose">能力評価基準が既存領域と同じで、適切なチームか不明</p>
               </div>
               <div className="text-center p-8 bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-xl border-l-4 border-indigo-800 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 <div className="flex justify-center mb-6">
-                  <img src="/exclamation-triangle.svg" alt="リソース不安アイコン" className="w-12 h-12" style={{ color: '#3730a3' }} />
+                  <img src="/images/icons/exclamation-triangle.svg" alt="リソース不安アイコン" className="w-12 h-12" style={{ color: '#3730a3' }} />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-4">リソース不安</h3>
                 <p className="text-sm text-gray-700 leading-loose">社内リソースとスキルだけで走り切れるか不安</p>
@@ -171,7 +171,7 @@ export default function Home() {
                   現状把握の客観化
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed mb-4 text-center">ASIS能力を客観的に把握し、"強み"と"伸び代"を定量化</p>
-                <img src="/analysis1.png" alt="現状把握の客観化 具体例" className="w-40 h-auto transition-transform duration-300 hover:scale-200 cursor-pointer mt-auto" />
+                <img src="/images/analysis/analysis1.png" alt="現状把握の客観化 具体例" className="w-40 h-auto transition-transform duration-300 hover:scale-200 cursor-pointer mt-auto" />
               </div>
               <div className="flex flex-col items-center p-6 rounded-xl hover:bg-indigo-50 transition-all duration-300 transform hover:scale-105">
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
@@ -179,7 +179,7 @@ export default function Home() {
                   戦略的アクションプラン
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed mb-4 text-center">TOBEに向けた経営層が納得するアクションプランの整理</p>
-                <img src="/analysis2.png" alt="戦略的アクションプラン 具体例" className="w-40 h-auto transition-transform duration-300 hover:scale-200 cursor-pointer mt-auto" />
+                <img src="/images/analysis/analysis2.png" alt="戦略的アクションプラン 具体例" className="w-40 h-auto transition-transform duration-300 hover:scale-200 cursor-pointer mt-auto" />
               </div>
               <div className="flex flex-col items-center p-6 rounded-xl hover:bg-indigo-50 transition-all duration-300 transform hover:scale-105">
                 <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
@@ -187,7 +187,7 @@ export default function Home() {
                   外部支援の検討
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed mb-4 text-center">必要に応じた外部支援の検討が可能に</p>
-                <img src="/analysis3.png" alt="外部支援の検討 具体例" className="w-40 h-auto transition-transform duration-300 hover:scale-200 cursor-pointer mt-auto" />
+                <img src="/images/analysis/analysis3.png" alt="外部支援の検討 具体例" className="w-40 h-auto transition-transform duration-300 hover:scale-200 cursor-pointer mt-auto" />
               </div>
             </div>
           </div>
